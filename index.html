@@ -1,0 +1,385 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, user-scalable=0" />
+
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=PT+Sans&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" type="text/css"  href="C:/Users/Raphael/OneDrive/Documentos/pasta1/HTML E CSS/PROJETOS/website with flexbox and html/template.css" />
+
+<script type="text/javascript">
+    window.onload = function(){
+        document.querySelector(".menuMobile").addEventListener("click", function(){
+            if(document.querySelector(".menu nav ul").style.display == 'flex') {
+                document.querySelector(".menu nav ul").style.display = 'none';
+            } else {
+                document.querySelector(".menu nav ul").style.display = 'flex'
+            }
+        });
+    };
+</script>
+
+
+<title>MediCenter</title>
+
+</head>
+<body>
+
+    <header>
+        <div class="container">
+            <div class="logo">
+                <a href=""><img src="C:/Users/Raphael/OneDrive/Documentos/pasta1/HTML E CSS/PROJETOS/website with flexbox and html/image/logo.png" /></a>
+            </div>
+            <div class="menu">
+                <nav>
+                    <div class="menuMobile">
+                        <div class="mm_line"></div>
+                        <div class="mm_line"></div>
+                        <div class="mm_line"></div>
+                    </div>
+                    <ul>
+                        <li class="active"><a href="">HOME</a></li>
+                        <li><a href="">HOME</a></li>
+                        <li><a href="">HOME</a></li>
+                        <li><a href="">HOME</a></li>
+                        <li><a href="">HOME</a></li>
+                        <li><a href="">HOME</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+    <section id="banner">
+        <div class="container column">
+            <div class="banner_headline">
+                <h1>Top notch experience</h1>
+                <h2>Medicenter is a responsive template perfect for all screen sizes</h2>
+            </div>
+            <div class="banner_options">
+                <div class="banner1">
+                    <div class="banner_title">Emergency Case</div>
+                    <div class="banner_desc">Algum texto qualquer</div>
+                    <a href="">Read more</a>
+                </div>
+                <div class="banner2">
+                    <div class="banner_title">Doctors Timetable</div>
+                    <div class="banner_desc">Algum texto qualquer</div>
+                    <a href="">Read more</a>
+                </div>
+                <div class="banner3">
+                    <div class="banner_title">Opening Hours</div>
+                    <div class="banner_day_hours1">
+                        <div class="day1">Monday - Friday</div>
+                        <div class="hours1">8.00 - 17.00</div>
+                    </div>
+                    <div class="banner_day_hours2">
+                        <div class="day1">Saturday</div>
+                        <div class="hours1">9.30 - 17.30</div>
+                    </div>
+                    <div class="banner_day_hours3">
+                        <div class="day1">Sunday</div>
+                        <div class="hours1">9.30 - 15.00</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="geral">
+        <div class="container">
+            <section>
+                <div class="widget">
+                    <div class="widget_title">
+                        <div class="widget_title_text">Latest News</div>
+                        <div class="widget_title_bar"></div>
+                    </div>
+                    <div class="widget_body flex">
+
+                        <article>
+                            <a href="">
+                                <div class="news_data">
+                                    <div class="news_posted_at">12 DEC 12</div>
+                                    <div class="news_comments">2</div>
+                                </div>
+                                <div class="news_thumbnail">
+                                    <img src="C:/Users/Raphael/OneDrive/Documentos/pasta1/HTML E CSS/PROJETOS/website with flexbox and html/image/doutora.jpg" />
+                                </div>
+                                <div class="news_title">
+                                    Lorem ipsum dolor sit amat velum
+                                </div>
+                                <div class="news_resume">
+                                    It is a long established fact that a reader will be distracted
+                                    by the readable content of a page when looking ai its layout.
+                                    The point of using Lorem Ipsum is that it has a more-or-less
+                                    normal distribution of letters, as opposed to using 'Content
+                                    here, content here', making it look like readable English.
+                                </div>
+                            </a>
+                        </article>
+                        <article>
+                            <a href="">
+                                <div class="news_data">
+                                    <div class="news_posted_at">12 DEC 12</div>
+                                    <div class="news_comments">2</div>
+                                </div>
+                                <div class="news_thumbnail">
+                                    <img src="C:/Users/Raphael/OneDrive/Documentos/pasta1/HTML E CSS/PROJETOS/website with flexbox and html/image/doutora.jpg" />
+                                </div>
+                                <div class="news_title">
+                                    Lorem ipsum dolor sit amat velum
+                                </div>
+                                <div class="news_resume">
+                                    It is a long established fact that a reader will be distracted
+                                    by the readable content of a page when looking ai its layout.
+                                    The point of using Lorem Ipsum is that it has a more-or-less
+                                    normal distribution of letters, as opposed to using 'Content
+                                    here, content here', making it look like readable English.
+                                </div>
+                            </a>
+                        </article>
+                        <article>
+                            <a href="">
+                                <div class="news_data">
+                                    <div class="news_posted_at">12 DEC 12</div>
+                                    <div class="news_comments">2</div>
+                                </div>
+                                <div class="news_thumbnail">
+                                    <img src="C:/Users/Raphael/OneDrive/Documentos/pasta1/HTML E CSS/PROJETOS/website with flexbox and html/image/doutora.jpg" />
+                                </div>
+                                <div class="news_title">
+                                    Lorem ipsum dolor sit amat velum
+                                </div>
+                                <div class="news_resume">
+                                    It is a long established fact that a reader will be distracted
+                                    by the readable content of a page when looking ai its layout.
+                                    The point of using Lorem Ipsum is that it has a more-or-less
+                                    normal distribution of letters, as opposed to using 'Content
+                                    here, content here', making it look like readable English.
+                                </div>
+                            </a>
+                        </article>
+                        <article>
+                            <a href="">
+                                <div class="news_data">
+                                    <div class="news_posted_at">12 DEC 12</div>
+                                    <div class="news_comments">2</div>
+                                </div>
+                                <div class="news_thumbnail">
+                                    <img src="C:/Users/Raphael/OneDrive/Documentos/pasta1/HTML E CSS/PROJETOS/website with flexbox and html/image/doutora.jpg" />
+                                </div>
+                                <div class="news_title">
+                                    Lorem ipsum dolor sit amat velum
+                                </div>
+                                <div class="news_resume">
+                                    It is a long established fact that a reader will be distracted
+                                    by the readable content of a page when looking ai its layout.
+                                    The point of using Lorem Ipsum is that it has a more-or-less
+                                    normal distribution of letters, as opposed to using 'Content
+                                    here, content here', making it look like readable English.
+                                </div>
+                            </a>
+                        </article>
+                        
+                    </div>
+                </div>
+            </section>
+            <aside>
+                <div class="widget">
+                    <div class="widget_title">
+                        <div class="widget_title_text">Departments</div>
+                        <div class="widget_title_bar"></div>
+                    </div>
+                    <div class="widget_body_departments">
+                        <div class="quadrado1"></div>
+                        <div class="quadrado2"></div>
+                        <div class="quadrado3"></div>
+                        <div class="quadrado4"></div>
+                        <div class="quadrado5"></div>
+                        <div class="quadrado6"></div>
+                    </div>
+                </div>
+                <div class="widget">
+                    <div class="widget_title">
+                        <div class="widget_title_text">Make An Appointment</div>
+                        <div class="widget_title_bar"></div>
+                    </div>
+                    <div class="widget_body">
+                        <div class="text_appointment">To make an appointment please use our costumer services below!</div>
+                        <div class="phone">
+                            <div class="img_phone"><img src="C:/Users/Raphael/OneDrive/Documentos/pasta1/HTML E CSS/PROJETOS/website with flexbox and html/image/phone.png" /></div>
+                            <div class="text_phone">by phone <strong>1-800-643-05</strong></div>
+                        </div>
+                        <div class="email">
+                            <div class="img_email"><img src="C:/Users/Raphael/OneDrive/Documentos/pasta1/HTML E CSS/PROJETOS/website with flexbox and html/image/email.png" /></div>
+                            <div class="text_email">by email <a href="medicenter@gmail.com">medicenter@gmail.com</a></div>
+                        </div>
+                        <div class="form">
+                            <div class="img_form"><img src="C:/Users/Raphael/OneDrive/Documentos/pasta1/HTML E CSS/PROJETOS/website with flexbox and html/image/form.png" /></div>
+                            <div class="text_form">or <a href="">fill in the form</a> on our contact page.</div>
+                        </div>
+                    </div>
+                </div>
+            </aside>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container flexColumn">
+            <div class="footer_menu">
+                <div class="fm_1">
+                    <a href="">
+                        <h2>Health Insurance</h2>
+                        <div class="text_arrow">
+                            <div class="text_p"><p>Here in medicenter we have individual</p></div>
+                            <div class="arrowright">></div>
+                        </div>
+                    </a>
+                </div>
+                <div class="fm_2">
+                    <a href="">
+                        <h2>Medical Records</h2>
+                        <div class="text_arrow">
+                            <div class="text_p"><p>Here in medicenter we have individual</p></div>
+                            <div class="arrowright">></div>
+                        </div>
+                    </a>
+                </div>
+                <div class="fm_3">
+                    <a href="">
+                        <h2>Online Bill Pay</h2>
+                        <div class="text_arrow">
+                            <div class="text_p"><p>Here in medicenter we have individual</p></div>
+                            <div class="arrowright">></div>
+                        </div>
+                    </a>
+                </div>
+            </div>
+
+            <div class="footer_area">
+                <div class="footer_areaitem">
+                    <div class="widget">
+                        <div class="widget_title">
+                            <div class="widget_title_text">Medicenter Clinic</div>
+                            <div class="widget_title_bar"></div>
+                        </div>
+                        <div class="widget_body">
+                            <div class="clinic_text">Mauris adipiscing mauris fringilla turpis interdum sed pulvinar nisi malesuada individual.</div>
+                            <div class="clinic_text23">
+                                <div class="clinic_text2">
+                                    <div>Medicenter Clinic</div>
+                                    <div>33 Farlane Street</div>
+                                    <div>Keilor East</div>
+                                    <div>VIC 3033, Australia</div>
+                                </div>
+                                <div class="clinic_text3">
+                                    <div class="point">.</div>
+                                    <div>+123 655 655</div>
+                                    <div>+123 755 755</div>
+                                    <div><a href="">medicenter@mail.com</a></div>
+                                </div>
+                            </div>
+                            <div class="clinic_img">
+                                <a href=""><img src="C:/Users/Raphael/OneDrive/Documentos/pasta1/HTML E CSS/PROJETOS/website with flexbox and html/image/face.png"></a>
+                                <a href=""><img src="C:/Users/Raphael/OneDrive/Documentos/pasta1/HTML E CSS/PROJETOS/website with flexbox and html/image/ttpreto.png"></a>
+                                <a href=""><img src="C:/Users/Raphael/OneDrive/Documentos/pasta1/HTML E CSS/PROJETOS/website with flexbox and html/image/maisum.png"></a>
+                                <a href=""><img src="C:/Users/Raphael/OneDrive/Documentos/pasta1/HTML E CSS/PROJETOS/website with flexbox and html/image/o-email.png"></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="footer_areaitem">
+                    <div class="widget">
+                        <div class="widget_right_title">
+                            <div class="widget_title_footer">
+                                <div class="widget_title_text">Latest Posts</div>
+                                <div class="widget_title_bar"></div>
+                            </div>
+                            <div class="right_left0">
+                                <a href="#"><div class="painel_left"> < </div></a>
+                                <a href="%"><div class="painel_right"> > </div></a>
+                            </div>
+                        </div>
+                        <div class="widget_body">
+                            <div class="widget_body1">
+                                <div class="widget_body_arrow">></div>
+                                <div class="widget_body_text">
+                                    <p><a href="">Mauris adipiscing mauris fringilla turpis interdum sed pulvinar nisi malesuada.</a></p>
+                                    <abbr title="04 Apr 2012" class="timeago">10 years ago</abbr>
+                                </div>
+                            </div>
+                            <div class="widget_body1">
+                                <div class="widget_body_arrow">></div>
+                                <div class="widget_body_text">
+                                    <p><a href="">Lorem ipsum dolor sit amat velum.</a></p>
+                                    <abbr title="04 Apr 2012" class="timeago">10 years ago</abbr>
+                                </div>
+                            </div>
+                            <div class="widget_body1">
+                                <div class="widget_body_arrow">></div>
+                                <div class="widget_body_text">
+                                    <p><a href="">Mauris adipiscing mauris fringilla turpis interdum sed pulvinar nisi malesuada.</a></p>
+                                    <abbr title="04 Apr 2012" class="timeago">10 years ago</abbr>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="footer_areaitem">
+                    <div class="widget">
+                        <div class="widget_right_title">
+                            <div class="widget_title_footer">
+                                <div class="widget_title_text">Latest Tweets</div>
+                                <div class="widget_title_bar"></div>
+                            </div>
+                            <div class="right_left">
+                                <a href="#"><div class="painel_left"> < </div></a>
+                                <a href="%"><div class="painel_right"> > </div></a>
+                            </div>
+                        </div>
+                        <div class="widget_body">
+                            <div class="widget_body2">
+                                <div class="widget_body_arrow">></div>
+                                <div class="widget_body_text1">
+                                    <p>We've just uploaded Finpeak - #Business #Finance #Consulting Template on #ThemeForest 👉 Download it here: <a href="">t.co/1qD396S2w9</a></p>
+                                    <abbr title="04 Apr 2012" class="timeago">21 days ago</abbr>
+                                </div>
+                            </div>
+                            <div class="widget_body2">
+                                <div class="widget_body_arrow">></div>
+                                <div class="widget_body_text1">
+                                    <p>We've released new version (v14.4) of our GymBase #Gym #Fitness #WordPress Theme. Please check at #ThemeForest <a href="">t.co/8mEwDqIFTE</a></p>
+                                    <abbr title="04 Apr 2012" class="timeago">3 months ago</abbr>
+                                </div>
+                            </div>
+                            <div class="widget_body2">
+                                <div class="widget_body_arrow">></div>
+                                <div class="widget_body_text1">
+                                    <p>We've released new version (v13.3) of our MediCenter #Health #Medical #Clinic #WordPress Theme. Please check at… <a href="">t.co/xgJMBzw1lz</a></p>
+                                    <abbr title="04 Apr 2012" class="timeago">3 months ago</abbr>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="footer_copy">
+                © Copyright - <a href="">MediCenter Template</a> - Todos os direitos reservados - por Raphael Melo - Baseado no Template da <a href="">QuanticaLabs</a>.
+            </div>
+
+        </div>
+    </footer>
+    
+
+
+
+
+
+
+</body>
+</html>
+
